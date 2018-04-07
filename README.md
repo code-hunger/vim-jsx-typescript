@@ -4,7 +4,7 @@ vim-jsx-typescript
 Syntax highlighting for JSX in Typescript.
 
 vim-jsx-typescript is _not_ a JavaScript syntax package, so in order to use it, you will
-also need to choose a base JS highlighter. [leafgarland/typescript-vim][1] is the
+also need to choose a base JS highlighter. [leafgarland/typescript-vim](https://github.com/leafgarland/typescript-vim) is the
 recommended package.
 
 
@@ -14,7 +14,7 @@ recommended package.
 
 ## Installation
 
-You can also add vim-jsx using [Vundle] or junegunn/vim-plug---just add the following lines to
+You can also add _vim-jsx_ using [Vundle] or *junegunn/vim-plug* - just add the following lines to
 your `~/.vimrc`:
 
 ### Vundle:
@@ -41,15 +41,15 @@ OR for vim-plug:
 
 ```
 
-You will also need to set .tsx files as filetype=typescript.jsx, since leafgarland/typescript-vim
-sets .tsx files as "typescript".
+You will also need to set _.tsx_ files as _filetype=typescript.jsx_, since _leafgarland/typescript-vim_
+sets _.tsx_ files as _"typescript"_.
 
 ```
 " set filetypes as typescript.jsx
 autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.jsx
 ```
 
-Note you can include .jsx and .js files as typescript.jsx files for syntax highlighting.
+Note you can include _.jsx_ and _.js_ files as _typescript.jsx_ files for syntax highlighting.
 
 
 Set jsx-tag colors in vimrc:
